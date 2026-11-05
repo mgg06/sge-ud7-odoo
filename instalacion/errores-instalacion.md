@@ -16,8 +16,15 @@ La consulta inicial también mostró una advertencia de acceso al archivo de con
 
 ## Comprobaciones realizadas
 
+Se reutilizó la base de datos de Odoo llamada `db`, que ya existía en el entorno de la práctica, y se mantuvo el servicio PostgreSQL 16 del contenedor `odoo-db`
+
+No se creó otra base ni se sustituyó la existente, las operaciones de la actividad se realizaron sobre ella
+
+El enunciado pide crear una base de datos, por lo que esta puesta en marcha documenta una adaptación del procedimiento a un entorno ya preparado, no una creación desde cero
+
 - Localizar Docker y comprobar que estaba instalado
 - Consultar los contenedores con `docker ps -a`
+- Arrancar los servicios existentes con `docker start odoo-db odoo-web`
 - Comprobar el estado y el puerto publicado con `docker ps`
 - Acceder a `http://localhost:8069` y abrir Ajustes
 - Revisar la versión mostrada por Odoo, `19.0-20260926`, edición Community

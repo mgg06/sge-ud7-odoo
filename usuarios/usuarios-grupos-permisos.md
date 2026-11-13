@@ -66,6 +66,16 @@ En Ajustes comprobé que Marta tiene Ventas limitado a documentos propios, Laura
 
 La lista del grupo `LOTO ROSA / Comercial junior` incluye a Marta Comercial y a Hugo Martín Salcedo. En las dos filas de permisos del grupo aparecen marcadas lectura, escritura y creación. La casilla de eliminación está vacía en ambas
 
+## QUÉ SE VE EN LA VENTA CON CADA PERFIL
+
+| Perfil | Qué hice o comprobé |
+| --- | --- |
+| Marta | Preparé el presupuesto S00025 con la cuenta comercial. En su ficha está asignado el acceso a documentos propios |
+| Laura | Abrió el presupuesto, confirmó el pedido y validó LR/OUT/00001. En el historial de la factura también aparece como la persona que creó el borrador |
+| Elena | Validó la factura INV/2026/00010 y registró el pago. En su ficha tiene Facturación y Ventas figura en "No" |
+
+Las capturas del grupo muestran los permisos que configuré. En la columna de borrar dejé las dos casillas vacías, así que desde este grupo no concedí ese permiso
+
 ## SEGURIDAD DE LAS CUENTAS
 
 No he incluido contraseñas en ningún archivo del repositorio ni las he utilizado como prueba documental. Los correos de acceso son ficticios y la información que interesa para revisar los permisos es el tipo de usuario, el puesto, el grupo y los módulos que cada uno puede utilizar

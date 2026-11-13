@@ -71,3 +71,11 @@ La lista del grupo `LOTO ROSA / Comercial junior` incluye a Marta Comercial y a 
 No he incluido contraseñas en ningún archivo del repositorio ni las he utilizado como prueba documental. Los correos de acceso son ficticios y la información que interesa para revisar los permisos es el tipo de usuario, el puesto, el grupo y los módulos que cada uno puede utilizar
 
 En el proceso de venta, las cuentas se emplean según el trabajo de cada persona. La comercial inicia el presupuesto, Laura confirma el pedido y gestiona la entrega y Elena interviene en la fase de Facturación. Las referencias y estados de esa operación se pueden consultar en `../venta/proceso-venta.md`
+
+## CAPTURAS DEL GRUPO
+
+| Qué comprobé | Archivo |
+| --- | --- |
+| Marta y Hugo figuran en el grupo | capturas/grupo-comercial-junior-usuarios.jpg |
+| El grupo hereda Ventas para documentos propios | capturas/grupo-comercial-junior-herencia.jpg |
+| Lectura, escritura y creación en pedidos y líneas | capturas/grupo-comercial-junior-permisos.jpg |
